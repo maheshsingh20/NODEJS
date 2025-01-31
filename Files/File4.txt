@@ -1,0 +1,5 @@
+Padh rha hoo
+Cleaned file name: I'm doneHello Mahesh SinghBye Bye
+Executed outer loop
+<Contents of I'm doneHello Mahesh SinghBye Bye.txt>
+Executed inner loop
