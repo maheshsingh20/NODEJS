@@ -1,3 +1,1 @@
-I'm done
-Hello Mahesh Singh
-Bye Bye
+input.txt

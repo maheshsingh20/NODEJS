@@ -61,7 +61,6 @@ console.log("I'm done");
 
 
 */
-
 let fs = require('fs');
 
 fs.readFile('./Files/File3.txt', 'utf-8', (err, data) => {
@@ -71,13 +70,13 @@ fs.readFile('./Files/File3.txt', 'utf-8', (err, data) => {
     }
     console.log(data);
     console.log('Executed outer loop');
-    fs.readFile('./Files/File4.txt', 'utf-8', (err, data2) => {
+    fs.readFile(`./Files/${data}.txt`, 'utf-8', (err, data2) => {
         if (err) {
             console.error('Error reading File4.txt:', err);
             return; 
         }
         console.log(data2);
-    })
+    });
 });
 
 console.log('Padh rha hoo');
