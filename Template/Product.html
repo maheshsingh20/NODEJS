@@ -1,7 +1,7 @@
 <div class="product-list">
     <div class="product-detail">
         <div class="product-image">
-            <img src="{{%IMAGE%}}" alt="Product Image" style="height: 50px; width: 50px">
+            <img src="{{%IMAGE%}}" alt="Product Image" style="height: 150px; width: 150px; margin: 50 px;">
         </div>
         <div class="product-specs">
             <h3>{{%NAME%}}</h3>
@@ -15,8 +15,7 @@
         <div class="product-info"><h4>Price: {{%PRICE%}}</h4></div>  
         <div class="product-info"><h4>Color: {{%COLOR%}}</h4></div>
         <div class="product-info"> 
-            <button class="btn-btn-primary">Buy Now</button>
-            <button class="btn-btn-primary">Show Details</button>
+            <a href="/products?id={{%ID%}}" class="btn btn-primary">Show Details</a>
         </div>
     </div>
 </div>

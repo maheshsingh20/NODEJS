@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
     } else if (path === '/products') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end(content.replace('{{%CONTENT%}}', product_array));
-    } else if (path === '/api/products') {
+    } else if (path === '/products') {
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(productData));
     } else {
